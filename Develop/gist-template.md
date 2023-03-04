@@ -30,6 +30,7 @@ Anchors are used to specify the position of the string. In our code `/^#?([a-f0-
 The other Anchor used is `$`. This specifies the end of the string. Without specifying the end, the search will include everything that contains 3 or 6 of our specified characters which could be found in longer words. The `$` tells the search to look for words or strings that are fully 3 or 6 of our specified characters and not to look past that.
 
 ### Quantifiers
+Quantifiers are used to specify how many of the specified characters that are before the quantifier. In our case we are looking for either 6 characters as shown by `{6}` or 3 characters `{3}`. If we were to want to look for a range of characters we could set a minimum and a maximum like this `{3,6}`. This snippet is looking for a word or string that are either 3,4,5, or 6 characters long.
 
 ### OR Operator
 
