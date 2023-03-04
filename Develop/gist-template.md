@@ -35,6 +35,7 @@ Just like in Javascript, when we want to specify ‘or’ we use the pipe operat
 Character classes are used to specify the characters we are looking for. Since Hex code is digits 0-9 and letters a-f, we want our character classes to denote that. To do so we put what we want in square brackets. For our case it would look like this, `[a-f0-9]`.
 
 ### Grouping and Capturing
+Grouping and capturing allows us to group multiple queries into one query. In our case we want to group together our or statement as it is all one search. We can do this by using parentheses. `([a-f0-9]{6}|[a-f0-9]{3})`
 
 ### Bracket Expressions
 
