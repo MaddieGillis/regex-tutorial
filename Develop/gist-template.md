@@ -17,7 +17,6 @@ A basic break down of this expression is that regex is looking for a string that
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -33,14 +32,13 @@ Quantifiers are used to specify how many of the specified characters that are be
 Just like in Javascript, when we want to specify ‘or’ we use the pipe operator, or `|`. In our case we are looking for 6 characters of a-f and or 0-9 OR 3 characters of a-f or 0-9.
 
 ### Character Classes
+Character classes are used to specify the characters we are looking for. Since Hex code is digits 0-9 and letters a-f, we want our character classes to denote that. To do so we put what we want in square brackets. For our case it would look like this, `[a-f0-9]`.
 
 ### Grouping and Capturing
 
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
-
-### Look-ahead and Look-behind
 
 ## Author
 
