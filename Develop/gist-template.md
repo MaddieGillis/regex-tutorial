@@ -1,4 +1,4 @@
-# Title Matching a Hex Value
+# Matching a Hex Value
 
 In this tutorial will we will explain how to match a hex value using Regex. A hex value is a string of either 3 or 6 digits or the letters a-f. A hex value is often used for programming colors in web design.
 
@@ -25,6 +25,9 @@ A basic break down of this expression is that regex is looking for a string that
 ## Regex Components
 
 ### Anchors
+Anchors are used to specify the position of the string. In our code `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`, we have 2 anchors. The first anchor is `^`, and it is used to specify that this is the start of the string we are searching for. Without specifying that it’s the start, regex will search for any string the 3 or 6 specified characters whether it’s the start middle or end of the word. This way we are telling it to look at the start.
+
+The other Anchor used is `$`. This specifies the end of the string. Without specifying the end, the search will include everything that contains 3 or 6 of our specified characters which could be found in longer words. The `$` tells the search to look for words or strings that are fully 3 or 6 of our specified characters and not to look past that.
 
 ### Quantifiers
 
