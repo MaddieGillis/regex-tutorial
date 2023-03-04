@@ -14,12 +14,9 @@ A basic break down of this expression is that regex is looking for a string that
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
@@ -33,20 +30,15 @@ The other Anchor used is `$`. This specifies the end of the string. Without spec
 Quantifiers are used to specify how many of the specified characters that are before the quantifier. In our case we are looking for either 6 characters as shown by `{6}` or 3 characters `{3}`. If we were to want to look for a range of characters we could set a minimum and a maximum like this `{3,6}`. This snippet is looking for a word or string that are either 3,4,5, or 6 characters long.
 
 ### OR Operator
+Just like in Javascript, when we want to specify ‘or’ we use the pipe operator, or `|`. In our case we are looking for 6 characters of a-f and or 0-9 OR 3 characters of a-f or 0-9.
 
 ### Character Classes
-
-### Flags
 
 ### Grouping and Capturing
 
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
 
 ### Look-ahead and Look-behind
 
