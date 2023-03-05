@@ -44,5 +44,4 @@ Bracket expressions are a list of characters or character classes that are in br
 Greedy matching is when the search is trying to match as many characters as possible, while lazy matching is trying to match to as little as possible. In our case we are using greedy matching, as we want to match as much to the hex code as possible.
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This author is a student with the University of Oregon/EdX full stack development bootcamp. Their work can be found at https://github.com/MaddieGillis/.
