@@ -41,6 +41,7 @@ Grouping and capturing allows us to group multiple queries into one query. In ou
 Bracket expressions are a list of characters or character classes that are in brackets. In our code case we are looking for a-f and 0-9 so our bracket expression is `[a-f0-9]`.
 
 ### Greedy and Lazy Match
+Greedy matching is when the search is trying to match as many characters as possible, while lazy matching is trying to match to as little as possible. In our case we are using greedy matching, as we want to match as much to the hex code as possible.
 
 ## Author
 
