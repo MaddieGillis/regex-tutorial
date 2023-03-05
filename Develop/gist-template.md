@@ -38,6 +38,7 @@ Character classes are used to specify the characters we are looking for. Since H
 Grouping and capturing allows us to group multiple queries into one query. In our case we want to group together our or statement as it is all one search. We can do this by using parentheses. `([a-f0-9]{6}|[a-f0-9]{3})`
 
 ### Bracket Expressions
+Bracket expressions are a list of characters or character classes that are in brackets. In our code case we are looking for a-f and 0-9 so our bracket expression is `[a-f0-9]`.
 
 ### Greedy and Lazy Match
 
