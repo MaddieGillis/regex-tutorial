@@ -11,8 +11,11 @@ No installation required, head over to https://gist.github.com/MaddieGillis/78ff
 
 ## Credits
 Starter code from: https://github.com/coding-boot-camp/bug-free-goggles
+
 The coding trains series on Regex https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w
+
 Trendmicro
+
 Google
 
 ## License
